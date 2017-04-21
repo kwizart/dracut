@@ -45,7 +45,7 @@ include_fs_helper_modules() {
             instmods crc32c
             ;;
         f2fs)
-            instmods crc32
+            instmods crc32 crc32_generic
             ;;
     esac
 }
